@@ -1,0 +1,92 @@
+*{
+    font-family: 'Poppins' ,sans-serif;
+    
+
+}
+.container{
+    height: 60vh;
+    width: 20vw;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid white;
+    padding: 20px;
+    gap: 5px;
+    position: absolute;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: url(pexels-dianachaplin-1242458.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    padding: 10px 25px;
+    border-radius: 7px;
+    font-size: large;
+    border: none;
+    margin-top: 15px;
+    background: linear-gradient(to right, #a8e063, #56ab2f);
+    transform: all 0.1s;
+}
+#btn:hover{
+    background: rgb(12, 102, 12);
+}
+
+#text {
+    width: 250px;
+    padding: 10px 10px 10px 35px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+
+
+    background: url('user-solid.svg') no-repeat 10px center;
+    background-size: 18px;
+    }
+
+    .inputDiv {
+        position: relative;
+        display: flex;
+        align-items: center;
+        max-width: 300px; 
+        width: 90%;
+        margin: 15px;
+    }
+    
+    #password {
+        width: 100%;
+        padding: 10px 35px 10px 10px;  /* Add right padding for space */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+        color: white;
+        background-color: transparent;
+
+        font-size: 1rem;
+    }
+    
+    #image {
+        position: absolute;
+        right: 10px;  
+        height: 20px;
+        width: auto;
+        cursor: pointer;
+    }
+
+    #head{
+        color: white;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+        <h2 id="head">LOGIN PAGE</h2>
+    
+        <div class="inputDiv">
+            <input type="text" id="text" placeholder="Username">
+        </div>
+    
+    
+        <div class="inputDiv"> 
+            <input type="password" id="password" placeholder="Password">
+            <img id="image" src="eye-slash-solid.svg">
+        </div>
+       
+        <button id="btn">Sign In</button>
+        </div>
+        
+        </section>
+
+
+   <script>
+const password = document.getElementById("password");
+const eye = document.getElementById("image");
+
+eye.addEventListener("click", () => {
+    if (password.type === "password") {
+        password.type = "text";
+        eye.src = "eye-solid.svg"; 
+    } else {
+        password.type = "password";
+        eye.src = "eye-slash-solid.svg"; 
+    }
+});
+
+
+
+
+   </script>
+</body>
+</html>
