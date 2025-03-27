@@ -22,7 +22,7 @@ section{
     height: 100vh;
     width: 100vw;
     position: relative;
-    background-image: url(pexels-dianachaplin-1242458.jpg);
+    background-image: url(pexels-thatguycraig000-1563356.jpg);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -49,8 +49,6 @@ section{
     outline: none;
     color: white;
     font-size: 1rem;
-
-
     background: url('user-solid.svg') no-repeat 10px center;
     background-size: 18px;
     }
@@ -72,10 +70,14 @@ section{
         outline: none;
         color: white;
         background-color: transparent;
-
         font-size: 1rem;
     }
-    
+    #text::placeholder,
+#password::placeholder {
+    color: rgba(255, 255, 255, 0.7); 
+    opacity: 1; 
+}
+
     #image {
         position: absolute;
         right: 10px;  
